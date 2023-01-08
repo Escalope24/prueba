@@ -21,7 +21,7 @@
                         <field name="caracteristicas" />
                         <field name="tiempo_uso" />
                         <field name="CPU"/>
-                        <field name="ram"/>
+                        <field name="RAM"/>
                         <field name="vendedor"/>
                     </group>
                 </sheet>

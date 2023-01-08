@@ -9,4 +9,5 @@
 
         <menuitem id="transacciones_menu_act" name="Ventas" parent="prueba_menu_root" action="transacciones_action"/>
 
-</odoo>
+        <menuitem id="hdd_menu_act" name="HDD" parent="prueba_menu_root" action="hdd_action"/>
+</odoo> 
