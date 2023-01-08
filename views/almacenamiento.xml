@@ -2,7 +2,7 @@
 
 <odoo>
     <record id="almacenamiento_action" model="ir.actions.act_window">
-        <field name="name">almacenmiento</field>
+        <field name="name">almacenamiento</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">almacenamiento</field>
         <field name="view_mode">tree,form</field>
