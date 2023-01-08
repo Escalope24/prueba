@@ -36,12 +36,17 @@
         <field name="model">almacenamiento</field>
         <field name="arch" type="xml">
             <tree string="">
-                <field name="marca" />
-                <field name="modelo" />
-                <field name="imagen" />
-                <field name="caracteristicas" />
-                <field name="espacio"/>
-                
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="marca" />
+                            <field name="modelo" />
+                            <field name="imagen" />
+                            <field name="caracteristicas" />
+                            <field name="espacio"/>
+                        </group>
+                    </sheet>
+                </form>
             </tree>
         </field>
     </record>
