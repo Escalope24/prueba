@@ -8,7 +8,7 @@ class Portatiles(models.Model):
     nombre = fields.Char(string="Nombre", requiered=True)
     marca = fields.Char(string="Marca", requiered=True )
     CPU = fields.Char(string="CPU")
-    HDD = fields.Char(string="HDD")
+    tipo = fields.Char(string="tipo")
     fecha_compra = fields.Date(string="Fecha de compra")
     tiempo_uso = fields.Integer(string="Tiempo de uso", required=True)
     caracteristicas = fields.Text(string="Caracteristicas")

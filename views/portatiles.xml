@@ -25,7 +25,24 @@
                         <field name="vendedor"/>
                     </group>
                 </sheet>
+                <group>
+                    <field name="tipo"/>
+                </group>
             </form>
+        </field>
+    </record>
+    <record>
+        <field name="name">Almacenamiento</field>
+        <field name="model">almacenamiento</field>
+        <field name="arch" type="xml">
+            <tree string="">
+                <field name="marca" />
+                <field name="modelo" />
+                <field name="imagen" />
+                <field name="caracteristicas" />
+                <field name="espacio"/>
+                
+            </tree>
         </field>
     </record>
 </odoo>
