@@ -9,7 +9,7 @@
 
         <menuitem id="transacciones_menu_act" name="Ventas" parent="prueba_menu_root" action="transacciones_action"/>
 
-        <menuitem id="almacenamiento_menu_act" name="Discos Duros" parent="prueba_menu_root" action="almacenamiento_action"/>
+        <menuitem id="almacenamiento_menu_act" name="Almacenamiento" parent="prueba_menu_root" action="almacenamiento_action"/>
         
     
         <!-- <record id="view_hdd_form" model="ir.ui.view">
