@@ -1,5 +1,5 @@
 <odoo>
-    <record id="almacenamienot_action" model="ir.actions.act_window">
+    <record id="almacenamiento_action" model="ir.actions.act_window">
         <field name="name">almacenmiento</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">hdd</field>
