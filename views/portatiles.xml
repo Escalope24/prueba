@@ -17,6 +17,12 @@
                         <field name="nombre" />
                         <field name="marca" />
                         <field name="imagen" />
+                        <field name="precio" />
+                        <field name="caracteristicas" />
+                        <field name="tiempo_uso" />
+                        <field name="CPU"/>
+                        <field name="RAM"/>
+                        <field name="vendedor"/>
                     </group>
                 </sheet>
             </form>
