@@ -14,7 +14,7 @@ class Portatiles(models.Model):
     caracteristicas = fields.Text(string="Caracteristicas")
     precio = fields.Float(string="Precio", requiered=True)
     imagen = fields.Binary(string="Imagen")
-    vendedor = fields.Char(string='usuarios', required=True)
+    vendedor = fields.Many2one('usuarios', required=True)
     vendido = fields.Boolean(string="Vendido", compute='_vendido')
     ram= fields.Char(string="RAM")
 
