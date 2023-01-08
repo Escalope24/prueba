@@ -9,5 +9,18 @@
 
         <menuitem id="transacciones_menu_act" name="Ventas" parent="prueba_menu_root" action="transacciones_action"/>
 
-        <menuitem id="hdd_menu_act" name="HDD" parent="prueba_menu_root" action="hdd_action"/>
+        <menuitem id="almacenamiento_menu_act" name="Discos Duros" parent="prueba_menu_root" action="almacenamiento_action"/>
+        
+    
+        <!-- <record id="view_hdd_form" model="ir.ui.view">
+            <field name="name">hdd.form</field>
+            <field name="model">hdd</field>
+            <field name="arch" type="xml">
+                <filters>
+                    <filter string="All" name="all" domain="[]"/>
+                    <filter string="5600 rpm " name="hdd" domain="[('rpm', '=', '5600')]"/>
+                    <filter string="7200 rpm " name="hdd" domain="[('rpm', '=', '7200')]"/>
+                </filters>
+            </field>
+        </record> -->
 </odoo> 
