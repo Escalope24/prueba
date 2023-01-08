@@ -7,13 +7,10 @@ class Almacenamiento(models.Model):
 
     marca = fields.Char(string="Marca", required=True )
     modelo = fields.Char(string="Modelo" , required=True)
-    tipo = fields.Selection([('ssd','SSD'),('hdd','HDD')])
     caracteristicas = fields.Text(string="Caracteristicas")
     espacio = fields.Selection([('500gb','500GB'),('1tb','1TB'),('2tb','2TB')])
     imagen = fields.Binary(string="Imagen")
-
+    rpm = fields.Integer(string="RPM")
     if(tipo=='ssd'):
         velocidad_lectura = fields.Integer(string="Velocidad de lectura")
         velocidad_escritura = fields.Integer(string="Velocidad de escritura")
-    else:
-        rpm = fields.Integer(string="RPM")

@@ -23,31 +23,27 @@
                         <field name="CPU"/>
                         <field name="RAM"/>
                         <field name="vendedor"/>
+                        <field name="tipo"/>
                     </group>
                 </sheet>
-                <group>
-                    <field name="tipo"/>
-                </group>
+                <record>
+                    <field name="name">Almacenamiento</field>
+                    <field name="model">almacenamiento</field>
+                    <field name="arch" type="xml">
+                        <tree string="">
+                                <sheet>
+                                    <group>
+                                        <field name="marca" />
+                                        <field name="modelo" />
+                                        <field name="imagen" />
+                                        <field name="caracteristicas" />
+                                        <field name="espacio"/>
+                                    </group>
+                                </sheet>
+                        </tree>
+                    </field>
+                </record>
             </form>
-        </field>
-    </record>
-    <record>
-        <field name="name">Almacenamiento</field>
-        <field name="model">almacenamiento</field>
-        <field name="arch" type="xml">
-            <tree string="">
-                <form>
-                    <sheet>
-                        <group>
-                            <field name="marca" />
-                            <field name="modelo" />
-                            <field name="imagen" />
-                            <field name="caracteristicas" />
-                            <field name="espacio"/>
-                        </group>
-                    </sheet>
-                </form>
-            </tree>
         </field>
     </record>
 </odoo>
