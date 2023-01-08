@@ -16,6 +16,7 @@ class Portatiles(models.Model):
     imagen = fields.Binary(string="Imagen")
     vendedor = fields.Many2one('usuarios', required=True)
     vendido = fields.Boolean(string="Vendido", compute='_vendido')
+    ram= fields.Selection([('8gb','8GB'),('16gb','16GB'),('32gb','32GB')])
 
     @api.depends('vendedor')
     def _vendido(self):
